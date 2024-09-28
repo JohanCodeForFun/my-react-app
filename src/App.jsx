@@ -8,11 +8,9 @@ import Invoice from './components/Invoice'
 import Reviews from './components/Reviews'
 
 function App() {
-  const invoiceMessage = "hej från parent"
-
   return (
     <>
-      <Hero message={invoiceMessage}/>
+      <Hero />
       <main>
         <HeroImg />
         <Reviews />
@@ -21,7 +19,7 @@ function App() {
         <Article />
         <Service />
         
-        <Invoice message={invoiceMessage}/>
+        <Invoice />
       </main>
 
       <Footer />
