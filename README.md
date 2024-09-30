@@ -1,8 +1,17 @@
-# React + Vite
+# Elektriker Jansson
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projekt för molntjänster.
 
-Currently, two official plugins are available:
+## Hur du gör
+- [ ] `git clone` till din dator
+- [ ] öppna projektet
+- [ ] kör `npm install`
+- [ ] öppna .env filen
+  - [ ] lägg till din ec2 ip adress
+- [ ] kör `npm run dev` för dev miljö
+- [ ] kör `npm run build` för att paketera till S3 Bucket
+- [ ] Ladda upp filer i /dist till s3 bucket
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fortsätt med,
+- node server,
+  - https://github.com/JohanCodeForFun/node-rds
