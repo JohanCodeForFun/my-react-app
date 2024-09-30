@@ -18,6 +18,10 @@ body {
   background-color: var(--cream-white);
 }
 
+#root {
+  width: 100vw;
+}
+
 .company-name {
   display: none;
 }
